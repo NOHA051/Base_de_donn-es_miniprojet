@@ -27,3 +27,6 @@ Chaque parfum possède un SKU pour la gestion des stocks.
 Les commandes peuvent inclure des codes promotionnels.
 Les parfums peuvent avoir des labels ou certifications (ex. cruelty-free, bio).
 Chaque parfum peut avoir des accessoires associés (ex. coffrets, produits complémentaires).
+
+<img width="590" height="330" alt="image" src="https://github.com/user-attachments/assets/4c81d718-f57b-4970-9b14-a92ee9dc3094" />
+

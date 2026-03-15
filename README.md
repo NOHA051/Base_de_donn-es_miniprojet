@@ -87,3 +87,36 @@ Les clés étrangères doivent faire référence aux clés primaires existantes 
 Fournis l'ensemble sous la forme d’un script SQL prêt à être exécuté.
 
 Génère des données SQL réalistes pour une base de données de parfumerie.
+
+
+-----------------Scénario d'utilisation -----------
+
+Clara Fontaine est responsable marketing et ventes au sein d'une société de distribution de parfums de luxe. Son rôle consiste à analyser les données commerciales de l'entreprise afin de prendre des décisions stratégiques sur les produits à mettre en avant, les clients à cibler et les promotions à lancer.
+Dans le cadre de la préparation de la campagne promotionnelle du printemps 2025, Clara utilise la base de données pour répondre à quatre grandes questions :
+
+- Quels produits mettre en avant ? :
+La liste complète des parfums triés par nom avec leur label et leur maison.
+Le nombre de parfums par maison.
+La liste des parfums qui n'ont jamais été commandés.
+
+- Qui sont les clients à cibler ?
+Tous les clients avec leurs commandes.
+Les noms et emails des clients ayant acheté au moins un parfum Chanel.
+Les clients ayant payé plus que le prix moyen, avec leur montant exact.
+
+- Comment ont évolué les ventes ?
+Toutes les commandes passées entre mars et mai 2024 avec leurs avis.
+Les commandes dont l'avis contient le mot "parfait" triées par date.
+
+- Quelles tendances orienter pour 2025 ?
+La liste des commerciaux et vendeurs avec leur manager.
+Les noms des familles olfactives qui ont été achetées entre mars et mai 2024.
+Les formats de flacons utilisés pour des parfums orientaux commandés depuis 2024.
+
+
+
+
+
+
+
+

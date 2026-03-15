@@ -30,3 +30,43 @@ Chaque parfum peut avoir des accessoires associés (ex. coffrets, produits compl
 
 <img width="590" height="330" alt="image" src="https://github.com/user-attachments/assets/4c81d718-f57b-4970-9b14-a92ee9dc3094" />
 
+
+
+-----------------------------------------Prompt de l'étape 4, l'insertion des données-------------------------------------------------------
+
+Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : 
+Employés (<u>id_employé</u>, rôle_employé, #id_manager)
+Maison_de_Parfum (<u>id_maison</u>, nom_maison, stock, #id_employé)
+Clientele (<u>id_clientele</u>, nom_clientele, coordonnées_client)
+Commande (<u>id_commande</u>, date_commande, avis_commande, #id_clientele)
+Prix (<u>id_commande</u>, valeur, promo_debut, promo_fin)
+Parfum (<u>id_parfum</u>, nom_parfum, description_parfum, label_parfum, #id_maison)
+Famille_Olfactive (<u>id_famille</u>, nom_famille, note_tete, note_coeur, note_fond)
+Formats (<u>id_format</u>, format_ml, emballage, concentration)
+Composé (<u>#id_commande, #id_parfum</u>)
+Associé (<u>#id_parfum, #id_famille</u>)
+Existe_sous (<u>#id_parfum, #id_format</u>)
+Coute (<u>#id_commande, #id_format</u>)
+Cible (<u>#id_clientele, #id_maison</u>)
+
+Les clés primaires correspondent aux id, sauf si autre chose est précisé (quand c'est un attribut composé) les clés étrangères sont identifiées par les #, et ont le même nom que les clés primaires auxquelles elles font référence.
+Voici le nombre de lignes souhaitées par table :
+- Employes :  100
+- Maison_de_Parfum : 5
+- Clientele : 500
+- Famille_Olfactive : 7
+- Formats : 40
+- Parfum : 100
+- Commande : 500
+- Prix : 30
+
+Valeurs spécifiques souhaitées :
+- [mets comme famille olfactive : aromatique, boisée, chyprée, fleurie, fougère, hesperidée, orientale ]
+- [pour les prix tu les fait varier entre 90 et 200 euro les 100mL ]
+- [pour les formats mets des formats suivant : 100ml, 200mL, 80mL, ect ]
+
+Les clés étrangères doivent faire référence aux clés primaires existantes : donne les lignes en commençant par remplir les tables dans lesquelles il n'y a pas de clés étrangères, puis les tables dans lesquelles les clés étrangères font références à des clés primaires des tables déjà remplies. 
+
+Fournis l'ensemble sous la forme d’un script SQL prêt à être exécuté.
+
+Génère des données SQL réalistes pour une base de données de parfumerie.

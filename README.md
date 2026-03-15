@@ -30,6 +30,23 @@ Chaque parfum peut avoir des accessoires associés (ex. coffrets, produits compl
 
 <img width="590" height="330" alt="image" src="https://github.com/user-attachments/assets/4c81d718-f57b-4970-9b14-a92ee9dc3094" />
 
+-----------------------------------------------Le modèle relationel logique-----------------------------------------------------------------
+
+Employés (id_employé, rôle_employé, #id_manager)
+Maison_de_Parfum (id_maison, nom_maison, stock, #id_employé)
+Clientele (id_clientele, nom_clientele, coordonnées_client)
+Commande (id_commande, date_commande, avis_commande, #id_clientele)
+Prix (id_commande, valeur, promo_debut, promo_fin)
+Parfum (id_parfum, nom_parfum, description_parfum, label_parfum, #id_maison)
+Famille_Olfactive (id_famille, nom_famille, note_tete, note_coeur, note_fond)
+Formats (id_format, format_ml, emballage, concentration)
+Composé (#id_commande, #id_parfum)
+Associé (#id_parfum, #id_famille)
+Existe_sous (#id_parfum, #id_format)
+Coute (#id_commande, #id_format)
+Cible (#id_clientele, #id_maison)
+
+
 
 
 -----------------------------------------Prompt de l'étape 4, l'insertion des données-------------------------------------------------------

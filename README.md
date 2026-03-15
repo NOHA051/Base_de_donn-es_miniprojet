@@ -97,24 +97,31 @@ Dans le cadre de la préparation de la campagne promotionnelle du printemps 2025
 - Quels produits mettre en avant ? :
   
 La liste complète des parfums triés par nom avec leur label et leur maison.
+
 Le nombre de parfums par maison.
+
 La liste des parfums qui n'ont jamais été commandés.
 
 - Qui sont les clients à cibler ?
   
 Tous les clients avec leurs commandes.
+
 Les noms et emails des clients ayant acheté au moins un parfum Chanel.
+
 Les clients ayant payé plus que le prix moyen, avec leur montant exact.
 
 - Comment ont évolué les ventes ?
   
 Toutes les commandes passées entre mars et mai 2024 avec leurs avis.
+
 Les commandes dont l'avis contient le mot "parfait" triées par date.
 
 - Quelles tendances orienter pour 2025 ?
   
 La liste des commerciaux et vendeurs avec leur manager.
+
 Les noms des familles olfactives qui ont été achetées entre mars et mai 2024.
+
 Les formats de flacons utilisés pour des parfums orientaux commandés depuis 2024.
 
 

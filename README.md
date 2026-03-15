@@ -30,7 +30,7 @@ Chaque parfum peut avoir des accessoires associés (ex. coffrets, produits compl
 
 <img width="590" height="330" alt="image" src="https://github.com/user-attachments/assets/4c81d718-f57b-4970-9b14-a92ee9dc3094" />
 
------------------------------------------------Le modèle relationel logique-----------------------------------------------------------------
+-----------------------------------------------Le modèle relationel logique---------------------------------------------------------------
 
 Employés (id_employé, rôle_employé, #id_manager)
 Maison_de_Parfum (id_maison, nom_maison, stock, #id_employé)
@@ -49,7 +49,7 @@ Cible (#id_clientele, #id_maison)
 
 
 
------------------------------------------Prompt de l'étape 4, l'insertion des données-------------------------------------------------------
+-----------------------------------------Prompt de l'étape 4, l'insertion des données-----------------------------------------------------
 
 Donne les requêtes d’insertion permettant de remplir la base de données dont le modèle relationnel est le suivant : 
 Employés (<u>id_employé</u>, rôle_employé, #id_manager)

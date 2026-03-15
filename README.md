@@ -89,7 +89,7 @@ Fournis l'ensemble sous la forme d’un script SQL prêt à être exécuté.
 Génère des données SQL réalistes pour une base de données de parfumerie.
 
 
------------------Scénario d'utilisation -----------
+-----------------------------------------------------Scénario d'utilisation ------------------------------------------------------------
 
 Clara Fontaine est responsable marketing et ventes au sein d'une société de distribution de parfums de luxe. Son rôle consiste à analyser les données commerciales de l'entreprise afin de prendre des décisions stratégiques sur les produits à mettre en avant, les clients à cibler et les promotions à lancer.
 Dans le cadre de la préparation de la campagne promotionnelle du printemps 2025, Clara utilise la base de données pour répondre à quatre grandes questions :

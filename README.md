@@ -1,5 +1,12 @@
 
-Réponse de l'IA :
+------------------------------------------------------Système de parfum de luxe--------------------------------------------------------
+
+
+Ce projet consiste en la conception et la réalisation d'une base de données relationnelle pour une maison de distribution de parfums de luxe. L'objectif est de gérer l'ensemble des données liées aux parfums, aux maisons de parfum partenaires, aux clients, aux commandes et aux employés.
+
+
+
+Réponse de l'IA pour la première partie :
 
 Règles de gestion des données de l’entreprise : 
 Chaque parfum appartient à une maison de parfum (ex. Chanel, Dior, YSL).
@@ -27,6 +34,8 @@ Chaque parfum possède un SKU pour la gestion des stocks.
 Les commandes peuvent inclure des codes promotionnels.
 Les parfums peuvent avoir des labels ou certifications (ex. cruelty-free, bio).
 Chaque parfum peut avoir des accessoires associés (ex. coffrets, produits complémentaires).
+
+----------------------------------------------------------Le MCD--------------------------------------------------------------------------
 
 <img width="590" height="330" alt="image" src="https://github.com/user-attachments/assets/4c81d718-f57b-4970-9b14-a92ee9dc3094" />
 
@@ -124,6 +133,11 @@ Les noms des familles olfactives qui ont été achetées entre mars et mai 2024.
 
 Les formats de flacons utilisés pour des parfums orientaux commandés depuis 2024.
 
+
+
+
+
+---------Victor KASPEREIT- Noha BOURRICH-----------
 
 
 
